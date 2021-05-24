@@ -5,6 +5,7 @@ pipeline {
             steps {
                 sh 'python3 python2.py'
                 sh 'echo "ran python2.py"'
+                sh 'echo "completed build"'
             }
         }
     }
